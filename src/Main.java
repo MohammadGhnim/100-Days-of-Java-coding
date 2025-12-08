@@ -95,9 +95,32 @@ public class Main{
 }
 */
 
-public class Main (){
+//public class Main {
+//    public static void main(String[] args){
+//        System.out.println("Hallo Java");
+//    }
+//}
+
+//------------------------------------------------------------------
+//https://codegym.cc/de/quests/lectures/de.codegym.java.core.lecture.level67.lecture01
+//Day 1 of Code:
+
+
+/*
+Schreiben Sie ein Java-Programm, das die folgende Zeile auf dem Bildschirm ausgibt: "Es ist toll, Programmierer zu sein!😎"
+
+Anforderungen:
+•	Das Programm soll die Zeile auf dem Bildschirm ausgeben: Es ist toll, Programmierer zu sein!😎
+•	Zum Ausgeben des Textes soll der Ausdruck System.out.println verwendet werden.
+*/
+public class Main{
     public static void main(String[] args){
-        System.out.print();
+        System.out.println("Hallo zusammmen!");
+        System.out.println("Heute lernen wir, in Java zu programmieren!");
+        System.out.println("Es ist toll, Programmierer zu sein!😎");
     }
 }
+
+
+
 
