@@ -129,6 +129,7 @@ public class Main{
 //2- Stufe 1, Lektion 2 (Ausgabe auf dem Bildschirm in Java: System.out.println und System.out.print):
 
 /*
+Aufgabe: Chatnachricht
 Stellen Sie sich vor, Sie senden eine Nachricht in einen Chat. Schreiben Sie ein Programm, das das aktuelle Jahr — 2025 — und den Smiley 😅 ausgibt. Jede Nachricht soll in einer eigenen Zeile stehen.
 
 Anforderungen:
@@ -138,11 +139,45 @@ Anforderungen:
 •	Zum Ausgeben von Nachrichten auf dem Bildschirm muss der Befehl System.out.println verwendet werden.
 */
 
+/*
+
 public class Main{
     public static  void main(String[] args){
         // Ausgabe des aktuellen Jahres 2025 in einer eigenen Zeile
         System.out.println(2025);
         // Ausgabe des Smileys 😅 in einer eigenen Zeile
         System.out.println("😅");
+    }
+}
+
+*/
+
+/*
+Aufgabe Satz aus Wörtern bilden
+Stellen Sie sich vor, Sie setzen einen Satz aus Teilen zusammen. Schreiben Sie ein Programm, das zwei Zeilen auf dem Bildschirm ausgibt, jeweils in einer neuen Zeile. Verwenden Sie dafür verschiedene Befehle System.out.println():
+
+Erste Zeile: "Ich lerne Java."
+Zweite Zeile: "Das interessant!"
+Geben Sie jedes Wort (Ich, lerne, Java, Das, interessant) mit einem separaten Befehl System.out.print() oder System.out.println() aus.
+
+Anforderungen:
+•	Für die Ausgabe jedes Wortes muss ein separater Befehl System.out.print() oder System.out.println() verwendet werden.
+•	Die Wörter müssen in folgender Reihenfolge ausgegeben werden: "Ich", "lerne", "Java", dann "Das", "interessant".
+•	Auf dem Bildschirm sollten zwei Zeilen erscheinen: die erste — "Ich lerne Java.", die zweite — "Das interessant!".
+•	Jede der beiden Ergebniszeilen muss in einer neuen Zeile des Bildschirms ausgegeben werden.
+*/
+
+public class Main{
+    public static void main(String[] args){
+        // Gib das erste Wort der ersten Zeile aus
+        System.out.print("Ich");
+        // Fügt ein Leerzeichen hinzu und gibt das zweite Wort der ersten Zeile aus
+        System.out.print(" lerne");
+        // Fügt ein Leerzeichen hinzu und gibt das dritte Wort der ersten Zeile aus
+        System.out.println(" Java.");
+        // Gib das erste Wort der zweiten Zeile aus
+        System.out.print("Das");
+        // Fügt ein Leerzeichen hinzu und gibt das zweite Wort der zweiten Zeile aus
+        System.out.print(" interessant!");
     }
 }
