@@ -102,8 +102,10 @@ public class Main{
 //}
 
 //------------------------------------------------------------------
+//** JAVA 25 Kurs (Codegym):**
+
 //https://codegym.cc/de/quests/lectures/de.codegym.java.core.lecture.level67.lecture01
-//Day 1 of Code:
+//1- Stufe 1, Lektion 1 (Befehle und das erste Programm in Java):
 
 
 /*
@@ -113,6 +115,8 @@ Anforderungen:
 •	Das Programm soll die Zeile auf dem Bildschirm ausgeben: Es ist toll, Programmierer zu sein!😎
 •	Zum Ausgeben des Textes soll der Ausdruck System.out.println verwendet werden.
 */
+
+/*
 public class Main{
     public static void main(String[] args){
         System.out.println("Hallo zusammmen!");
@@ -120,7 +124,25 @@ public class Main{
         System.out.println("Es ist toll, Programmierer zu sein!😎");
     }
 }
+*/
 
+//2- Stufe 1, Lektion 2 (Ausgabe auf dem Bildschirm in Java: System.out.println und System.out.print):
 
+/*
+Stellen Sie sich vor, Sie senden eine Nachricht in einen Chat. Schreiben Sie ein Programm, das das aktuelle Jahr — 2025 — und den Smiley 😅 ausgibt. Jede Nachricht soll in einer eigenen Zeile stehen.
 
+Anforderungen:
+•	Das Programm muss die Zahl 2025 auf dem Bildschirm ausgeben.
+•	Das Programm muss den Smiley 😅 auf dem Bildschirm ausgeben.
+•	Die Zahl 2025 und der Smiley 😅 müssen in getrennten Zeilen ausgegeben werden, nicht in derselben Zeile.
+•	Zum Ausgeben von Nachrichten auf dem Bildschirm muss der Befehl System.out.println verwendet werden.
+*/
 
+public class Main{
+    public static  void main(String[] args){
+        // Ausgabe des aktuellen Jahres 2025 in einer eigenen Zeile
+        System.out.println(2025);
+        // Ausgabe des Smileys 😅 in einer eigenen Zeile
+        System.out.println("😅");
+    }
+}
